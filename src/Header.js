@@ -1,6 +1,5 @@
 import React from "react";
 import './Header.css';
-import'./Img/anyang.png';
 
 const Header = () => {
     const handleSearch = () => {

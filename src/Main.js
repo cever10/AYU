@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import NavigationBav from "./NavigationBar";
-import Shortpage from "./ShortsPage";
+
 
 
 const Main = () =>{
@@ -11,8 +11,9 @@ const Main = () =>{
             <Header/>
             <main>
             <div>
-                영상 넣기
-                <Shortpage/>
+
+                메인화면
+
             </div>
             </main>
         </div>
