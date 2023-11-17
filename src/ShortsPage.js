@@ -2,7 +2,6 @@ import React from "react";
 
 const Shortpage = () => {
     
-
         return(
             <div>
                 <h1>Shortpage입니다.</h1>
