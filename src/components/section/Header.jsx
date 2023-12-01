@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { CiCoins1 } from "react-icons/ci";
 import { CiMoneyBill } from "react-icons/ci";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -24,6 +23,18 @@ function Header() {
                 <ul className='menu'>
 
                     <li>
+                        <a href='/'>
+                            <CiMoneyBill /> 홈
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href='/shorts'>
+                            <CiMoneyBill /> 쇼츠
+                        </a>
+                    </li>
+
+                    <li>
                         <a href='/today'>
                             <CiMoneyBill /> 추천 영상
                         </a>
@@ -31,12 +42,31 @@ function Header() {
 
                     <li>
                         <a href='/developer'>
-                            <CiCoins1 /> 추천 개발자
+                            <CiMoneyBill /> 추천 개발자
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href='/developer'>
+                            <CiMoneyBill /> 추천 개발자
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href='/popular'>
+                            <CiMoneyBill /> 인기 급상승
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href='/channel'>
+                            <CiMoneyBill /> 채널
                         </a>
                     </li>
                     
                 </ul>
 
+                {/* 보류코드
                 <ul className='keyword'>
 
                     <li>
@@ -44,6 +74,8 @@ function Header() {
                     </li>
 
                 </ul>
+                */}
+                
 
             </nav>
             

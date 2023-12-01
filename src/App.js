@@ -14,6 +14,9 @@ import Video from './pages/Video'
 import Search from './pages/Search'
 import Not from './pages/Not'
 
+import Shorts from './pages/Shorts'
+import Popular from './pages/Popular'
+
 import Header from './components/section/Header';
 import Main from './components/section/Main';
 import Footer from './components/section/Footer';
@@ -37,6 +40,9 @@ function App() {
           <Route path='/video/:videoId' element={<Video />} />
           <Route path='/search/:searchId' element={<Search />} />
           <Route path='*' element={<Not />} />
+          
+          <Route path='/shorts' element={<Shorts />} />
+          <Route path='/popular' element={<Popular />} />
         </Routes>
       </Main>
 
