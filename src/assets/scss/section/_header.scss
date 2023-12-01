@@ -53,13 +53,13 @@
                 }
 
                 &:hover {
-                    background-color: var(--black100);
+                    background-color: rgb(30,30,30);
                     color: var(--white);
                 }
             }
 
-            &.active a {
-                background-color: var(--black100);
+            &.active a{
+                background-color: rgb(30,30,30);
                 color: var(--white);
             }
         }
