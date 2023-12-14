@@ -1,0 +1,39 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .any{
+    width: 150px;
+    height: 100px;
+  }
+  
+  .search input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .search button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #0056b3;
+  }

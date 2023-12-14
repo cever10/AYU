@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #d66b6b;
+    color: white;
+    
+
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover {
+    color: lightblue;
+  }
