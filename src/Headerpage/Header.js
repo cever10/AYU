@@ -10,7 +10,7 @@ const Header = () => {
           <img  className="any" alt="logo" src="https://i.namu.wiki/i/aPZtbqInG3YpAN74PShT2B004t47SREVPBH6pK2Sl0Z0PH4Wtt1FBPCLew9-D48VDgj6VbjrG9v1ysMdoF6pwg.webp" />
       </div>
       <div className="logo">
-        <Link to="/">1조 유튜브</Link>
+        <Link to="/">1조 과제 튜브</Link>
       </div>
       
       <div className="search">
